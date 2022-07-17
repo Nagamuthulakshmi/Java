@@ -1,4 +1,4 @@
-class Day1{
+class Day1{//Name the class and file using same name
     public static void main(String args[]){
         int a=5;
         int d=0;
