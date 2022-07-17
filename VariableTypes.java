@@ -1,5 +1,5 @@
 //Example for types of variables
-public class Day2 {
+public class VariableTypes {
     int rno=142; // Instance variable - common variable which belongs to the whole class and can be accessed from everywhere
     String initial="Jashwin"; //Instance Variable
     static String college = "MIT"; //Static Variable - variable created outside methods but inside class, has one time memory allocation
@@ -8,7 +8,7 @@ public class Day2 {
         int rollno=123; //Local Variable - variable created and destroyed witin the same function or block
         String name="Jeevesh"; //Local Variable - can be printed only inside this function alone
         System.out.println("Roll Number"+rollno+"Name:"+name);// Printing Local variable here itself
-        Day2 day2Obj = new Day2();
+        VariableTypes day2Obj = new VariableTypes();
         day2Obj.display();
     }
     void display()
