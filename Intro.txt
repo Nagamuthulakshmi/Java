@@ -1,0 +1,191 @@
+1. What is Java, Write answers for the questions possible from this question.
+
+Eg: Java is an Object Oriented, Platform independant, Highlevel language. 
+(Then what is - Object?, What is Highlevel language)
+
+Java is a general-purpose programming language that is class-based and object-oriented. 
+The programming language is structured in such a way that developers can write code anywhere 
+and run it anywhere without worrying about the underlying computer architecture. 
+It is also referred to as write once, run anywhere (WORA).
+
+What is Object?
+A Java object is a member (also called an instance) of a Java class. 
+Each object has an identity, a behavior and a state. 
+The state of an object is stored in fields (variables), while methods (functions) display 
+the object's behavior. Objects are created at runtime from templates, which are also known as classes.
+Java is an object-oriented programming language. Everything in Java is associated with classes and objects, 
+along with its attributes and methods. For example: in real life, a car is an object. 
+The car has attributes, such as weight and color, and methods, such as drive and brake.
+Any entity that has state and behavior is known as an object. 
+For example, a chair, pen, table, keyboard, bike, etc. It can be physical or logical.
+An Object can be defined as an instance of a class. 
+An object contains an address and takes up some space in memory. 
+Objects can communicate without knowing the details of each other's data or code. 
+The only necessary thing is the type of message accepted and the type of response returned by the objects.
+Example: A dog is an object because it has states like color, name, breed, etc. as well as 
+behaviors like wagging the tail, barking, eating, etc.
+
+What is Object Oriented language?
+Object-oriented programming (OOP) is a computer programming model that organizes software 
+design around data, or objects, rather than functions and logic. 
+An object can be defined as a data field that has unique attributes and behavior.
+Object-Oriented Programming is a type of programming approach that uses the concepts of objects and classes.
+A program written within the Object-Oriented Programming approach will have reusable blocks of codes termed classes. 
+These classes are further used for creating instances of the objects
+Object means a real-world entity such as a pen, chair, table, computer, watch, etc. 
+Object-Oriented Programming is a methodology or paradigm to design a program using classes and objects. 
+It simplifies software development and maintenance by providing some concepts:
+
+Object
+Class
+Inheritance
+Polymorphism
+Abstraction
+Encapsulation
+
+What is a class?
+Collection of objects is called class. It is a logical entity.
+A class can also be defined as a blueprint from which you can create an individual object. 
+Class doesn't consume any space.
+A class is Blueprint of an object which describes/ shows all the functions and data that are provided by 
+an object of a specific class. It can't be called as parent or instance of an object. 
+Class in general describes all the properties of an object.
+
+What is Inheritance?
+When one object acquires all the properties and behaviors of a parent object, it is known as inheritance. 
+It provides code reusability. It is used to achieve runtime polymorphism.
+
+What is Polymorphism?
+If one task is performed in different ways, it is known as polymorphism. 
+For example: to convince the customer differently, to draw something, for example, shape, triangle, rectangle, etc.
+In Java, we use method overloading and method overriding to achieve polymorphism.
+Another example can be to speak something; for example, a cat speaks meow, dog barks woof, etc.
+
+What is Abstraction?
+Hiding internal details and showing functionality is known as abstraction. 
+For example phone call, we don't know the internal processing.
+In Java, we use abstract class and interface to achieve abstraction.
+
+
+What is Encapsulation?
+Binding (or wrapping) code and data together into a single unit are known as encapsulation. 
+For example, a capsule, it is wrapped with different medicines.
+A java class is the example of encapsulation. 
+Java bean is the fully encapsulated class because all the data members are private here.
+
+What is Platform independant Language?
+Platform-independent software can be used in many different environments, requiring less planning and translation across an enterprise. 
+For example, the Java programming language was designed to run on multiple types of hardware and multiple operating systems.
+
+What is High Level Language?
+The high-level language is a programming language that allows a programmer to write the programs which 
+are independent of a particular type of computer. The high-level languages 
+are considered as high-level because they are closer to human languages than machine-level languages.
+When writing a program in a high-level language, then the whole attention needs to be paid to the logic of the problem.
+A compiler is required to translate a high-level language into a low-level language.
+Advantages of a high-level language
+The high-level language is easy to read, write, and maintain as it is written in English like words.
+The high-level languages are designed to overcome the limitation of low-level language, i.e., portability. 
+The high-level language is portable; i.e., these languages are machine-independent.
+
+What is Compiler?
+A compiler is a special program that translates a programming language's source code into machine code, 
+bytecode or another programming language. The source code is typically written in a high-level, 
+human-readable language such as Java or C++. A programmer writes the source code in a code editor or an 
+integrated development environment (IDE) that includes an editor, saving the source code to one or more text files. 
+A compiler that supports the source programming language reads the files, analyzes the code, 
+and translates it into a format suitable for the target platform.
+Compilers are sometimes confused with programs called interpreters. 
+Although the two are similar, they differ in important ways. Compilers analyze and convert source code written in 
+languages such as Java, C++, C# or Swift. They're commonly used to generate machine code or bytecode that can be 
+executed by the target host system.
+
+Interpreters do not generate IR code or save generated machine code. They process the code one statement at a 
+time at runtime, without pre-converting the code or preparing it in advance for a particular platform. 
+Interpreters are used for code written in scripting languages such as Perl, PHP, Ruby or Python.
+
+2. How java is compiled?
+https://www.youtube.com/watch?v=8y0L9QT7U74
+This might sound like a hint that Java is a purely interpreted language. 
+However, before execution, Java source code needs to be compiled into bytecode. 
+Bytecode is a special machine language native to the JVM. The JVM interprets and executes this code at runtime.
+JDK is the development environment that enables you to develop applications and applications built in Java. 
+The JDK contains, among other things, class libraries that facilitate programming 
+but also includes a compiler that translates your code into machine code (more about the compiler later).
+
+
+3.why we write public static void main?
+public is used as an access modifier for a main method . 
+static is used so that it can directly load in memory with creating any instance. 
+void is used because it done not return any value and main is the entry point of program. 
+public : accessible in whole program/ its scope is in complete program 
+static: there is no need to create object/instance of this main function to access it. 
+void: function can't return value main: this is main function where compiler starts the execution first.
+
+Can we write static public void main?
+Yes, we can change the order of public static void main() to static public void main() in Java, 
+the compiler doesn't throw any compile-time or runtime error. In Java, we can declare access modifiers in any order, 
+the method name comes last, the return type comes second to last and then after it's our choice.
+What if I write static public void main?
+It will work. Nothing will happen ! It was nothing the program compiles and runs properly.
+
+To start executing a Java program, the corresponding method should be “public static void main”
+
+main : This is name of the method, which is used as a identifier by JVM to invoke or begin the execution of the program
+
+static : instance methods are invoked only after instantiation; but static methods can invoked with class name like ClassName.staticMethodName
+
+void : as the invoker of this method is JVM and it doesn’t need or expect any value therefore it is void (as it indicate nothing to return)
+
+public : This is access-modifier or visibility & highest visibility is public, which is accessible for everyone
+
+now at runtime JVM searches for main method.Now main method is public so it can be called easily and 
+also it is static so there is no need to create the object of class that contains the main method. 
+Hence when you start your code the JVM can easily start the main function because of the pubic static void main.
+
+4. How compiler knows main function to be executed first
+https://www.geeksforgeeks.org/java-main-method-public-static-void-main-string-args/
+
+
+5.What is the journey from HelloWorld.java to HelloWorld.class 
+https://www.geeksforgeeks.org/java-class-file/
+https://www.programiz.com/java-programming/hello-world
+
+7. What is JDK, JRE, JIT?
+https://www.programiz.com/java-programming/jvm-jre-jdk
+
+
+8. Does Java use Compiler & Interpreters?
+The Compiler of java called as javac converts source code into a Intermediate file known as Bytecode file. 
+The Bytecode file is unique for all types of OS means bytecode is platform independent
+
+Now
+
+The Interpreter of java (java) converts Bytecode into the specific OS compatible machine code . 
+This code will vary according to OS.
+
+The Detailed Story:
+
+What is Bytecode file ? why it is called as Bytecode file ?
+
+So, the answer is Bytecode is just like Shorthand language that store each keyword of java as a sign. 
+and each sign takes 1 byte of memory in RAM. Hence the name called as Bytecode file.
+
+Why we use both - Compiler as well as Interpreter in Java(Need of Separate compiler and Interpreter)
+
+At the time of C and C++, only Compiler was there that converts source code into specific OS machine code. 
+The machine code was OS dependent that varied from OS to OS.
+
+The problem the programmer were facing that They had to design a different compiler for different Operating System 
+that is too difficult, Too time consuming and much Costly.
+
+Then Sun Microsystem take the whole Initiative by making :
+
+a Unique compiler that produce Platform Independent Bytecodes and
+
+the Specific JVM(Java Virtual Machine)or Interpreter that converts bytecodes into machine code that will vary 
+from OS to OS.
+
+and making different JVM for different OS was much easier and economical than the whole Compiler.
+
+SO, The JAVA was more Popular and more in use than any Language
