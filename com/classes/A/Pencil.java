@@ -20,11 +20,22 @@ public class Pencil {
     public void Write(){
         System.out.println(this.type+" Pen which is "+this.color+" in color is of width "+this.width);
     }
+
+    public String Draw(){
+        String s = "This function returns a value";
+        return s;
+    }
+
+    public String Draw(String a){
+        return a;
+    }
     public static void main(String[] args) {
+        String s1;
         //Object with no parameters
         Pencil co = new Pencil();
         System.out.println(co.color+" "+co.type+" "+co.width+" ");
         co.Write();
+        s1=co.Draw();
 
         //Object with Parameters
         Pencil co1 = new Pencil(30, "HB", "Black");
@@ -35,6 +46,8 @@ public class Pencil {
         Pen p2 = new Pen(45, "Firm","White");
         p1.Write();
         p2.Write();
+        s1=p2.Draw("This function returns a value");
+
         System.out.println(p1.color+" "+p1.type+" "+p1.width+" ");
         System.out.println(p2.color+" "+p2.type+" "+p2.width+" ");
     }

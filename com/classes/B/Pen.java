@@ -20,6 +20,10 @@ public class Pen{
     public void Write(){
         System.out.println(this.type+" Pen which is "+this.color+" in color is of width "+this.width);
     }
+    public String Draw(){
+        String s = "This function returns a value";
+        return s;
+    }
     public static void main(String[] args) {
         //Object with no parameters
         Pen co = new Pen();
@@ -37,5 +41,8 @@ public class Pen{
         p2.Write();
         System.out.println(p1.color+" "+p1.type+" "+p1.width+" ");
         System.out.println(p2.color+" "+p2.type+" "+p2.width+" ");
+    }
+    public String Draw(String string) {
+        return null;
     }
 }
