@@ -30,13 +30,10 @@ public class Pencil {
         return a;
     }
     public static void main(String[] args) {
-        String s1;
         //Object with no parameters
         Pencil co = new Pencil();
         System.out.println(co.color+" "+co.type+" "+co.width+" ");
         co.Write();
-        s1=co.Draw();
-
         //Object with Parameters
         Pencil co1 = new Pencil(30, "HB", "Black");
         System.out.println(co1.color+" "+co1.type+" "+co1.width+" ");
@@ -46,8 +43,6 @@ public class Pencil {
         Pen p2 = new Pen(45, "Firm","White");
         p1.Write();
         p2.Write();
-        s1=p2.Draw("This function returns a value");
-
         System.out.println(p1.color+" "+p1.type+" "+p1.width+" ");
         System.out.println(p2.color+" "+p2.type+" "+p2.width+" ");
     }
