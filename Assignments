@@ -1,0 +1,274 @@
+1] Write a Program to find Smallest number out of 2 Numbers.
+
+2] Write a Program to Check enter number is Positive,Negative or Zero.
+
+3] Check whether enter number is Even or Odd.
+
+4] Write a Program to find largest number out of 3 Numbers.
+
+5] Write a Program to find number which is divisible by 4 & 5.
+
+1. Mark the person as ELIGIBLE TO DONATE only if his age is above 18 and his BMI is below 25. If not, Then the person is NOT ELIGIBLE TO DONATE.
+
+2. Find the vowel from the alphabet entered by the user.
+
+1. Write a program to find multiplication table of the number provided by user.
+
+2. Write a program to find factorial of a number.
+
+3. Write a program to print the prime number from 1 till the limit provided by the user.
+
+4. Write a program to find sum of digits of the number.
+
+eg. num=186, then sum = 1+8+6
+
+5. Write a program to check whether the number provided is palindrome or not.
+
+6. Write a program to display only even numbers till 100 and skip odd numbers.
+
+7. Write a program to find the reverse of a number.
+
+8. Write a program to check whether the number provided is perfect number or not.
+
+1] Write a program to accept 10 elements from user and find largest element and smallest element using 1D Array.
+
+2] Write a Program to display Addition of 2 Numbers & accept both numbers from user.
+
+3] Write a Program to find greatest number out of 2 Numbers.
+
+4] Write a Program to Check enter number is Positive,Negative or Zero.
+
+5] Write a Program to Design Simple Calculator using Switch Case.
+
+6] Write a Program to find Sum of Numbers.
+
+7] Write a Program to find Factorial of Number.
+
+8] Write a Program to find Sum of Digits. 
+
+Explain the following Access Modifiers with real time examples while used near a class, constructor, method, variable:
+
+static
+
+final
+
+abstract
+
+synchronized
+
+transient
+
+native
+
+strictfp
+
+Create Package Fruits
+
+Create a class Fruit in package Fruits.
+
+Create variables globally - Name of the fruit, Number of seeds, Color of the fruit
+
+Create a Default Constructor and add values to name, seeds, color and display them using sysout in this format : The fruit Apple is Red in color has 4 seeds.
+
+Create a Parameterised Constructor and use this operator to pass the values via objects.
+
+Create a parameterised method/function like - String display(String BotanicalName) and Display the Botanical Name of the fruit through this function also return the string value.
+
+
+
+Create Package Vegetables
+
+ Create a class Vegetable in package Vegetable.
+
+Create variables globally - Name of the Vegetable, Color of the Vegetable
+
+Create a Default Constructor and add values to name, color and display them using sysout in this format : The vegetable Carrot is Orange in color.
+
+Create a Parameterised Constructor and use this operator to pass the values via objects.
+
+Create a parameterised method/function like - String display(String BotanicalName) and Display the Botanical Name of the vegetable through this function also return the string value.
+
+-----------------------------------------------------------------------------------
+
+Now ,
+
+In class Fruit, Create an object which calls the default constructor of vegetable and then create an object which calls the parameterised constructor of vegetable and print desired results.
+
+In class Vegetable, Create an object which calls the default constructor of fruit and then create an object which calls the parameterised constructor of fruit and print desired results.
+
+<Hint: import the fruit class in vegetable and Vegetable class in fruit>
+
+1. Create a Hybrid Inheritance structure with any of the following Inheritance combinations (Single/Multilevel/Hierarchical).
+The created Parent and Child classes should have a strong relationship relating to (Grandparent+Parent+Sibling+Children Combinations)
+
+
+
+2. Justify Why Multiple Inheritance is not Possible in Java?
+
+Explain the scenario with examples.
+
+What are the possible solutions in Java to attain Multiple Inheritance?
+
+Write a program which creates a class Student with the following 
+
+Data Members:
+
+ rollNum, studName, mark1, mark2, mark3, totalMarks  
+
+Methods:
+
+ setStudDetails()   which sets the values to all the data members except totalMarks. 
+
+calculateTotal() -  which calculate the totalMarks 
+
+displayStudDetails()   which displays rollNum, studName and totalMarks 
+
+Create a class StudentDemo to test the functionality of Student class  
+
+INTERVIEW QUESTIONS ON INTERFACES. 
+
+IF YES, EXPLAIN HOW
+
+IF NO, EXPLAIN WHY
+
+
+
+1. Can interfaces have constructors?
+
+2. Can we re-assign a value to a field of interfaces?
+
+3. Can we declare an Interface with abstract keyword?
+
+4. For every Interface in java, .class file will be generated after compilation. True or false?
+
+5. Can we override an interface method with visibility other than public?
+
+6. Can interfaces become local members of the methods?
+
+7. Can an interface extend a class?
+
+8. Like classes, does interfaces also extend Object class by default?
+
+9. Can interfaces have static methods?
+
+10. Can an interface have a class or another interface as its members?
+
+Build Logic for the following questions using Java String Operations:
+
+1. How to convert an array to string in Java?
+
+2. How to check if two strings are the same ignoring their cases?
+
+3. How to print duplicate characters from the string?
+
+4. How to check if two strings are anagrams of each other?
+
+5. How to reverse a string in Java without using the reverse method?
+
+6. How to count the occurrence of the given character in a string?
+
+7. How to convert string to integer?
+
+8. How to check if a string is a palindrome?
+
+9. Write a program to remove given characters from the string?
+
+10. How to count the number of words in a given string sentence?
+
+11. How to reverse the words from the given string sentence?
+
+12. How to swap two strings without using the third variable?
+
+13. find the number of occurrences of all words in a string?
+
+14. Write a Java program to reverse each word of a given string?
+
+15. How to remove all vowels from a string in Java?
+
+16. Most repetitive character in a string
+
+17. How to find the first non-repeating character in a given String?
+
+1. Write a program to find the number of vowels, consonents, digits and white space characters in a string.
+
+2. Write a program to find the first and the last occurence of the letter 'o' and character ',' in "Hello, World".
+
+3. Write a program to check if the letter 'e' is present in the word 'Umbrella'.1. Write a program to find the number of vowels, consonents, digits and white space characters in a string.
+
+2. Write a program to find the first and the last occurence of the letter 'o' and character ',' in "Hello, World".
+
+3. Write a program to check if the letter 'e' is present in the word 'Umbrella'.
+
+1. Create a  outer class CPU which has two inner classes RAM and Processor. Both the classes should have methods which display information about RAM and Processor.
+
+Try this code snippet and find the exception and handle it using try-catch blocks.
+
+1. String s=null;  
+
+    System.out.println(s.length());
+
+2. String s="abc";  
+
+     int i=Integer.parseInt(s);
+
+3. int a[]=new int[5];  
+
+    a[10]=50; 
+
+4. public class Example {
+
+    public void incorrectCastExample() {
+
+    Long value = 1967L;
+
+    String name = (String) value;
+
+    }
+
+    }
+
+5.  Can we just use try instead of finally and catch blocks?
+
+6. What is the difference between exception and error in Java?
+
+7. What is the difference between final. finally and finalize?
+
+8. Can we keep other statements in between try, catch and finally blocks?
+
+9. What is unreachable catch block error?
+
+10.  Does finally block get executed If either try or catch blocks are returning the control?
+
+Create an UserAccount class with 3 methods like deposit(),withraw() and getBalance(). so when user want to withraw the amount then if check if sufficient balance is not available then throw custom exception for Insufficient Balance.
+
+INTERVIEW QUESTIONS:
+
+Differentiate between Collection and Collections.
+Differentiate between an Array and an ArrayList.
+Differentiate between Iterable and Iterator.
+Differentiate between ArrayList and LinkedList.
+Differentiate between Comparable and Comparator.	
+Differentiate between List and Set.
+Differentiate between Set and Map.
+Differentiate between List and Map.
+Differentiate between Queue and Stack.
+Differentiate between PriorityQueue and TreeSet.
+Differentiate between the Singly Linked List and Doubly Linked List
+Differentiate between Iterator and Enumeration.
+Differentiate between HashMap and HashTable.
+Differentiate between HashSet and HashMap.
+Differentiate between Iterator and ListIterator.
+Differentiate between HashSet and TreeSet.
+Differentiate between Queue and Deque.
+Differentiate between HashMap and TreeMap.
+Differentiate between ArrayList and Vector.
+
+ArrayList nlist = new ArrayList(Arrays.asList(6,7,18,4,,4,8,9,4,8,23));
+1. Write a program to Print Above list in Reverse Order using ListIterator ?
+2. Write a program to Print Above list in Reverse Order using Collections ?
+3. Write a program to Print Above list After interchanging 18 and 23 using Collections class method   ?
+4. Write a program to Length of Above of List ?
+5.Write a program to print sum of all values of above list (Note use Foreach loop) ?
+6.Write a program to print Even values of above list ?
+7.Write a program to print Square of each value of above list?
+
